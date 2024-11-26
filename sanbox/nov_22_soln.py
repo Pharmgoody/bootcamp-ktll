@@ -17,3 +17,9 @@ def animal(dinosaur):
 dinosaur = "giganotosaurus"
 len(dinosaur) == 14
 print (animal(dinosaur))
+
+def drug(antibiotic):
+    length = len(antibiotic)
+    return antibiotic[length - 3]
+antibiotic = "azithromycin"
+print (drug(antibiotic))
